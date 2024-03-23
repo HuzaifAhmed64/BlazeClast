@@ -29,21 +29,21 @@ function BlazeCast(){
     var body= document.querySelector("body")
     
     if(data.weather[0].main == "Clouds"){
-        weatherIcon.src = "clouds.png"
+        weatherIcon.src = "clouds.webp"
     
     }
     else if(data.weather[0].main == 'Clear'){
-        weatherIcon.src = "clear.png";
+        weatherIcon.src = "clear.webp";
 
 
     }
     
     else if(data.weather[0].main == "rain"){
-        weatherIcon.src = "rain.png";
+        weatherIcon.src = "rain.webp";
     }
     
     else if(data.weather[0].main == "drizzle"){
-        weatherIcon.src = "drizzle.png";
+        weatherIcon.src = "drizzle.webp";
     }
     else if(data.weather[0].main == "snow"){
     weatherIcon.src = "snow.png";
@@ -51,10 +51,10 @@ function BlazeCast(){
     
     }
     else if(data.weather[0].main == "Smoke"){
-        weatherIcon.src = "mist.png";
+        weatherIcon.src = "mist.webp";
     }
     else if(data.weather[0].main == "sunny"){
-        weatherIcon.src = "mist.png";
+        weatherIcon.src = "mist.webp";
     }
     document.querySelector(".weather").style.display="block";
     document.querySelector(".error").style.display="none";
